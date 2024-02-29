@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Estrangeiro ou Brasileiro</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Você é de que país? <input type="text" name="txtpaís" id="txtpaís">
+    <input type="button" value="Verificar" onclick="analisar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function analisar(){
+            var txtp = window.document.querySelector('input#txtpaís')
+            var res = window.document.querySelector('div#res')
+            var país = String(txtp.value)
+            res.innerHTML = `<p>Como nasceu no(a) ${país}</p>`
+            if (país == 'Brasil'){
+                res.innerHTML += (`Você é Brasileiro!`)
+            } else{
+                res.innerHTML += ('Você é Estrangeiro!')
+            }
+        }
+    </script>
+</body>
+</html>
