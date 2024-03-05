@@ -1,7 +1,7 @@
 # Estudos 
 ## Meu Desenvolvimento de Hard Skills
 ### Introdução
-Este repositório foi criado para documentar e acompanhar o meu progresso no desenvolvimento de hard skills. Aqui, Vamos colocar os projetos, estudos e aprendizados que venho tendo na plataforma do EstudoNauta e da DIO.
+Este repositório foi criado para documentar e acompanhar o meu progresso no desenvolvimento de hard skills. Aqui, Vamos colocar os projetos, estudos e aprendizados que venho tendo na UFMS em Engenharia de Software, e nas plataformas do EstudoNauta e DIO.
 ### Objetivos
 Os principais objetivos deste repositório são:
 
